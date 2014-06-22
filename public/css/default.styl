@@ -1,0 +1,384 @@
+body.default
+    color: #222222;
+    font-size: 62.5%;
+    font-weight: 100;
+    margin: 0;
+    font-family: 'Lucida Grande'
+
+    .clear
+        clear: both;
+        height: 0;
+    .hidden
+        display: none;
+
+    .projectContainer, .newsContainer
+        background:none repeat scroll 0 0 #CCC;
+        color: #58585A;
+        height: 185px;
+        position: relative;
+        width: 445px;
+        z-index: 3;
+        cursor: pointer;
+
+    .infoProject
+        background: none repeat scroll 0 0 #FFFFFF;
+        height: 132px;
+        margin: 1px;
+        padding: 10px 8px 2px 8px;
+
+    .rightContainer, .leftContainer
+        float:left;
+
+    .leftContainer
+        border-radius: 5px 5px 5px 5px;
+        height: 122px;
+        overflow: hidden;
+        width: 140px;
+        text-align: center;
+
+    .rightContainer
+        height: 134px;
+        margin: 0 0 0 14px;
+        position: relative;
+        width: 268px;
+
+    .rightContainer .lastContent
+        margin-top: 4px;
+
+    .leftContainer
+        position:relative;
+
+    .newsContainer .leftContainer
+        background: none repeat scroll 0 0 #EEEEEE;
+        max-width: 140px;
+        min-width: 66px;
+        width: auto;
+        height:122px;
+
+    .newsContainer .leftContainer img
+        border-radius: 5px 5px 5px 5px;
+        height: 122px;
+        max-width: 140px;
+        min-width: 70px;
+        position: relative;
+        width: auto;
+
+    .leftContainer img
+        border-radius: 5px 5px 5px 5px; -webkit-border-radius: 5px 5px 5px 5px; -moz-border-radius: 5px 5px 5px 5px;
+        margin: 0 auto;
+        max-height: 122px;
+        max-width: 140px;
+        z-index: 2;
+
+    .leftContainer .linkContent
+        background: url('../img/bg-link.png') repeat scroll 0 0 transparent;
+        bottom: 0;
+        left:0;
+        color: #FFFFFF;
+        display: block;
+        font-size: 10px;
+        font-weight: 600;
+        position: absolute;
+        text-transform: uppercase;
+        width: 100%;
+        z-index: 6;
+
+    .leftContainer .linkContent:hover
+        background:#ff8b0e;
+
+    .leftContainer a.seeLink
+        background: url('../img/icons-small.png') no-repeat 7px -615px;
+        color: #FFFFFF;
+        display: block;
+        font-size: 11px;
+        height: 18px;
+        padding: 8px 0 5px 37px;
+        text-align: left;
+
+    .projectContainer .textContent,
+    .newsContainer .textContent
+        margin: 0 0 5px;
+        max-height: 97px;
+        overflow: hidden;
+
+    .projectContainer .textContent > p,
+    .newsContainer .textContent > p
+        margin:0;
+
+    .projectContainer .textContent > p a,
+    .newsContainer .textContent > p a
+        color: #222222;
+        font-size: 10.5px;
+        line-height: 13px;
+
+    .projectContainer  div.imgContent,
+    .newsContainer  div.imgContent
+        border-radius: 5px 5px 5px 5px;-moz-border-radius: 5px 5px 5px 5px; -webkit-border-radius: 5px 5px 5px 5px;
+        background: url('../img/loader.gif') no-repeat scroll center 44px transparent;
+        margin: 2px 0 5px;
+        overflow: hidden;
+        text-align: center;
+        width: 208px;
+
+    .projectContainer  div.imgContent a,
+    .newsContainer  div.imgContent a
+        border:none;
+
+    .projectContainer  .imgContent img,
+    .newsContainer  .imgContent img
+        border: medium none;
+        max-height: 130px;
+        max-width: 211px;
+
+    .projectContainer  .nameContent h4,
+    .newsContainer  .nameContent h4
+        padding: 0 0 4px;
+
+    .projectContainer .textContent h3
+        line-height: 21px;
+        color: #333333;
+        display: block;
+        font-size: 16px;
+
+    .projectContainer .textContent h3,
+    .newsContainer .textContent h3
+        float: left;
+        margin: 0 0 5px;
+
+    .projectContainer  .textContent h3 a,
+    .newsContainer  .textContent h3 a
+        font-size: 19px;
+        line-height: 22px;
+        text-transform: none;
+
+    .projectContainer  .nameContent h4,
+    .newsContainer  .nameContent h4
+        font-size: 13px;
+        line-height: 18px;
+
+    .projectContainer .textContent h3 a,
+    .projectContainer  .nameContent h4,
+    .newsContainer .textContent h3 a,
+    .newsContainer .nameContent h4
+        color: #3A3C3B;
+        font-size: 21px;
+        font-weight: 100;
+        margin:0;
+        position: relative;
+
+    ul, li, h1, h2, h3, h4, h5, h6, blockquote
+        margin: 0;
+        padding: 0;
+
+    .projectContainer .nameContent h4 a.countryFlag
+        display:inline-block;
+        height:20px !important;
+        line-height: 20px;
+
+    .projectContainer .nameContent h4 a.countryFlag.Argentina
+        background-position: right 0px;
+
+    .projectContainer .nameContent h4 a.countryFlag.Mexico
+        background-position: right -19px;
+
+    .projectContainer .nameContent h4 a.countryFlag.Peru
+        background-position: right -39px;
+
+    .projectContainer .nameContent h4 a.countryFlag.Chile
+        background-position: right -58px;
+
+    .projectContainer .nameContent h4 a.countryFlag.Brasil
+        background-position: right -78px;
+
+    .projectContainer .nameContent h4 a.countryFlag.Colombia
+        background-position: right -101px;
+
+    .projectContainer .nameContent h4 a.countryFlag.eeuu
+        background-position: right -124px;
+
+    .projectContainer .nameContent h4 a,
+    .projectInfo .datosGrales h3 a
+        background: url('../img/flags.png') no-repeat scroll transparent;
+        color: #F7A000;
+        padding-right: 34px;
+
+    a
+        border:none;
+        cursor:pointer;
+        text-decoration:none;
+
+    h1, h2, h3, strong
+        font-weight:bold;
+
+    .projectContainer .dateContent,
+    .newsContainer .dateContent
+        font-size: 11px;
+        font-weight: 500;
+        padding: 3px 0 0;
+        text-transform: uppercase;
+
+    .projectContainer .resumenContent .dateContent span,
+    .newsContainer .resumenContent .dateContent span
+        font-size: 11px;
+        line-height: 17px;
+        text-transform: uppercase;
+
+    .projectContainer .dateContent span.number
+        font-size: 20px;
+        font-weight: bold;
+        text-align: center;
+
+    .projectContainer .tagsContent
+        float: left;
+
+    .paginationContent .paginacion.filtros > .result,
+    .projectContainer .tagsContent .caja
+        -moz-border-radius: 3px 3px 3px 3px;  -webkit-border-radius: 3px 3px 3px 3px; border-radius: 3px 3px 3px 3px;
+        color: #444444;
+        float: left;
+        font-size: 11px;
+        margin: 2px 0;
+        padding: 3px 0 3px 2px;
+        width: 48%;
+
+    .projectContainer .tagsContent .caja
+        display: block;
+        width: 96px !important;
+
+    .projectContainer .tagsContent .caja .ico
+        width: 21px;
+
+    .ico.categTagIcon
+        background-position:-2px -116px;
+
+    .ico
+        background: url('../img/icons-small.png') repeat-y scroll 0 0 transparent;
+        font-size: 12px;
+        height: 16px;
+        width: 24px;
+        float: left;
+
+    .projectContainer .status.expired span
+        background: url('../img/icon-msg-error.png')  no-repeat scroll 0 center #EFE8D7;
+        color: #DE763C;
+
+    .projectContainer .status.success span
+        background: url('../img/icon-msg-ok.png') no-repeat scroll 0 center #DBEAD5;
+        color: #82A870;
+
+    .projectContainer .status.pending span
+        background: url('../img/icon-msg-pending.png') no-repeat scroll 0 center #D3DCED;
+        color: #7190C4;
+
+    .projectContainer .status span
+        color: #FFFFFF;
+        float: left;
+        font-size: 12px;
+        font-weight: bold;
+        line-height: 24px;
+        margin: 2px 0;
+        padding: 0 9px 0 33px;
+        text-transform: uppercase;
+        width: 82%;
+        border-radius:  2px 2px 2px 2px; -webkit-border-radius: 2px 2px 2px 2px; -moz-border-radius: 2px 2px 2px 2px;
+
+    .projectContainer .infoContent
+        float:right;
+
+    a.button,
+    .button,
+    input.button,
+    button.button
+        background: url('../img/button-bg.jpg') repeat-x scroll 0 0 #C96503;
+        border: 1px solid #D29237;
+        border-radius: 5px 5px 5px 5px;
+        color: #FFFFFF;
+        cursor: pointer;
+        display: block;
+        float: right;
+        font-size: 12px;
+        font-weight: 600;
+        padding: 4px 0;
+        text-align: center;
+        text-shadow: -1px -1px 0 #D29237;
+        text-transform: uppercase;
+        width: 112px;
+
+    .projectContainer .nameContent h4
+        font-size: 11px;
+        line-height: 13px;
+
+    .projectContainer .progressContent
+        height: 28px;
+
+    .projectContainer .categoriaContent
+        color: #777777;
+        font-size: 9px;
+        text-transform: uppercase;
+
+    .progress-level
+        background: url('../img/progress-small.png') no-repeat left center;
+        height: 39px;
+        margin-left: 8px;
+
+    .small-progress-level
+        background: url('../img/progress-small.png') no-repeat scroll -7px center transparent;
+        height: 28px;
+        margin-left: 0;
+        position: relative;
+        border-radius: 5px 5px 5px 5px;-moz-border-radius: 5px 5px 5px 5px; -webkit-border-radius: 5px 5px 5px 5px;
+
+    .progress-bar
+        background: url('../img/percentage-small-bg.png') no-repeat scroll -6px center transparent;
+        height: 28px;
+        width: 209px;
+
+    .progress-bar .small-progress-level .number
+        color: #FFFFFF;
+        font-size: 21px;
+        font-weight: 600;
+        padding: 3px 8px;
+        position: absolute;
+        right: 7px;
+        top: 0
+
+    .progress-bar .small-progress-level.small .number
+        right: -46px;
+
+    .progress-bar .small-progress-level .number
+        color: #CCC;
+        font-size: 15px;
+        font-weight: 600;
+        padding: 3px 8px;
+        position: absolute;
+        right: 7px;
+        top: 0;
+
+    .footer
+        width: 445px;
+
+    .footer a
+        float:left;
+
+    .footer a.logo
+        display:block;
+        background: url('../img/logo-transparente-small.png') no-repeat;
+        height: 32px;
+        margin: 2px 0 0 12px;
+        text-indent: -9999px;
+        width: 100px;
+
+    .footer p
+        color: #777;
+        float: right;
+        font-size: 12px;
+        font-style: italic;
+        margin: 12px 9px 3px 0;
+
+    .templateNovedad .rightContainer h3
+        color: #FF9B2C;
+        font-size: 17px;
+
+    .templateNovedad .rightContainer p
+        font-size: 12px;
+        margin: 5px;

@@ -1,0 +1,17 @@
+language: node_js
+
+node_js:
+    - 0.8.24
+
+before_install:
+    - npm install -g npm
+    - npm install -g grunt-cli
+    - npm install -g bower
+    - bower install
+
+script:
+    - grunt release
+
+branches:
+    only:
+        - test
